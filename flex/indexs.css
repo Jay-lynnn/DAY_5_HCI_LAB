@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(11, 12, 46);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+
+.container h1{
+    color: rgb(251, 252, 255);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p{
+    color: rgb(251, 252, 255);
+    text-align: justify;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcement{
+    color: rgb(251, 252, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    background-color: rgb(64, 78, 118);
+    border-radius: 20px; 
+    padding: 10px 10px;
+}
+
+.announcement p{
+    display: flex;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.container button{
+    background-color: rgb(17, 77, 242);
+    color: #ffffff;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px; 
+    padding: 8px 12px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.announcement svg{
+    display: block;
+    flex-shrink: 0;
+}
